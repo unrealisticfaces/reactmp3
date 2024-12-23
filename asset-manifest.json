@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/reactmp3/static/css/main.b38b655b.css",
+    "main.js": "/reactmp3/static/js/main.c043b241.js",
+    "static/js/787.f0116273.chunk.js": "/reactmp3/static/js/787.f0116273.chunk.js",
+    "static/media/boxicons.svg": "/reactmp3/static/media/boxicons.9e2b21b135bc7d4c803f.svg",
+    "static/media/slipknot3.webp": "/reactmp3/static/media/slipknot3.a92c865b80de3077c0bb.webp",
+    "static/media/boxicons.eot": "/reactmp3/static/media/boxicons.65a8ce52fc5427e8f94d.eot",
+    "static/media/boxicons.woff": "/reactmp3/static/media/boxicons.d12afc36557395143e4b.woff",
+    "static/media/boxicons.ttf": "/reactmp3/static/media/boxicons.db9ddb1898dbd76badca.ttf",
+    "static/media/boxicons.woff2": "/reactmp3/static/media/boxicons.df635aaf04cd75132f62.woff2",
+    "service-worker.js": "/reactmp3/service-worker.js",
+    "index.html": "/reactmp3/index.html",
+    "main.b38b655b.css.map": "/reactmp3/static/css/main.b38b655b.css.map",
+    "main.c043b241.js.map": "/reactmp3/static/js/main.c043b241.js.map",
+    "787.f0116273.chunk.js.map": "/reactmp3/static/js/787.f0116273.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b38b655b.css",
+    "static/js/main.c043b241.js"
+  ]
+}

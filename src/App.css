@@ -1,0 +1,305 @@
+body {
+  background-color: #121212;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(./slipknot3.webp);
+  /* background-color: black; */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+.container{
+  width: 100vw;
+  height: 400px;
+  background-color: #121212;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(./slipknot3.webp);
+  user-select: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: black; */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
+}
+nav{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav>img{
+  width: 200px;
+  height:fit-content;
+}
+nav>h1{
+  font-size: 35px;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:#FF731D ;
+  margin-left: 10px;
+}
+.container>h1,h4{
+  font-size: 40px;
+  text-align: center;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff ;
+  margin-bottom: 0;
+}
+.container>h4{
+  margin-top: 10px;
+  font-size: 20px;
+  color: #FF0000;
+}
+input{
+  width: 500px;
+  padding: 15px 20px;
+  outline: none;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:#121212 ;
+  border: 1px solid #212121;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+input::placeholder{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  font-weight: 500;
+  border: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0px 10px;
+  height: 100%;
+  width: 160px;
+  background-color: #fff;
+  font-size: 15px;
+}
+button{
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 10px;
+  background-color: #1746A2;
+  border: none;
+  outline: none;
+  color: white;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 500ms;
+}
+button:hover{
+  background-color: #FF0000;
+}
+.download-container{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.download-container>h2{
+  margin-top: 50px;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #FF0000;
+}
+.dev-info{
+  position: fixed;
+  bottom: 20px;
+  text-align: center;
+  margin: 0%;
+}
+@media screen and (min-width:320px) and (max-width:768px) {
+  .container{
+    width: 100vw;
+    height: 300px;
+  }
+  nav{
+    width: 100%;
+    height: 80px;
+  }
+  nav>img{
+    width: 50px;
+    height:fit-content;
+  }
+  nav>h1{
+    font-size: 25px;
+  }
+  .container>h1,h4{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#1746A2 ;
+    margin-bottom: 0;
+    margin-top: 10px;
+  }
+  .container>h4{
+    margin-top: 10px;
+    font-size: 13px;
+    color: #FF0000;
+  }
+  input{
+    width: 80%;
+    padding: 10px 10px;
+    outline: none;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#1746A2 ;
+    border: 1px solid #1746A2;
+    border-radius: 15px;
+    margin-top: 20px;
+  }
+  input::placeholder{
+    color: #1746A2;
+  }
+  button{
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    background-color: #1746A2;
+    border: none;
+    outline: none;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 500ms;
+  }
+  button:hover{
+    background-color: #FF731D;
+  }
+  .download-container>h2{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 60px;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FF731D;
+  }
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px 150px;
+  background-color: #ffffff; /* Background color of the footer */
+  color: #121212;
+}
+
+.footer-box {
+  flex: 1;
+  margin: 10px;
+}
+
+.footer-box h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.footer-box p {
+  font-size: 0.9rem;
+  color: #6C757D;
+  margin-bottom: 15px;
+}
+
+.social {
+  display: flex;
+  gap: 10px;
+}
+
+.social a i {
+  font-size: 1.5rem;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #f8f9fa;
+  color: #495057;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.social a i:hover {
+  background-color: #dee2e6;
+  color: #212529;
+}
+
+.overview li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.overview li a {
+  color: #6C757D;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.overview li a:hover {
+  color: #495057;
+}
+
+.contact span {
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+  color: #6C757D;
+  margin-bottom: 10px;
+}
+
+.contact span i {
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #ffffff;
+  background-color: #212529; /* Dark background for copyright section */
+  padding: 10px 0;
+  border-top: 1px solid #495057;
+  margin-top: 20px;
+}
+
+/* Responsive Footer */
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-box {
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .social {
+    justify-content: center;
+  }
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1; /* This ensures the content takes up all the available space */
+}
